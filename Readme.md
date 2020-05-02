@@ -1,0 +1,2 @@
+Site  para hotel, com o layout responsivo. Nesse projeto e usado apenas html e css, para a criação da pagina 
+foi usado como referencia o curso que tem inicio no seguinte endereço:  https://youtu.be/KIKekNqq3so
