@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: #ffffff;
 }
 
 header img {
@@ -52,6 +53,35 @@ header li:last-child{
     margin-right: 0;
 }
 
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero .btn {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
 @media (max-width: 700px){
     header{
         flex-direction: column;
@@ -59,4 +89,13 @@ header li:last-child{
     header img {
         margin-bottom: 15px;
     }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+    
 }
